@@ -1,0 +1,55 @@
+perl-Gtk2-Clutter
+------------------------------------------
+Perl bindings for the clutter-gtk library
+
+Runtime requirements:
+  cygwin-1.7.0-62
+  libclutter-gtk0.10_0-0.10.2-1
+  libclutter1.0_0-1.0.8-1
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  perl-5.10.0-5
+  perl-Clutter-1.002-1
+  perl-Glib-1.222-1
+  perl-Gtk2-1.221-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  make-3.81-2
+  perl-ExtUtils-Depends-0.302-1
+  perl-ExtUtils-PkgConfig-1.12-1
+
+Canonical website:
+  http://www.clutter-project.org/
+
+Canonical download:
+  http://git.clutter-project.org/?r=bindings/clutter-perl
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Clutter-0.100_001-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Clutter-0.100_001-X.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Clutter-0.100_001-X-src.tar.bz2
+  /usr/src/perl-Gtk2-Clutter-0.100_001-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.100_001-1 -----
+Initial release for Cygwin 1.7 from git snapshot.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

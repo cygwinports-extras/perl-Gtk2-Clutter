@@ -1,0 +1,4 @@
+category: Perl Gnome
+requires: libclutter-gtk0.10_0 libclutter1.0_0 libgcc1 libglib2.0_0 libgtk2.0_0 perl perl-Clutter perl-Glib perl-Gtk2
+sdesc: "Perl clutter-gtk bindings"
+ldesc: "Perl bindings for the Clutter GTK+ integration library"

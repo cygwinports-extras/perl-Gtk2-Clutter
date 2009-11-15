@@ -1,0 +1,4 @@
+GIT_URI="git://git.clutter-project.org/bindings/clutter-perl"
+GIT_SUBDIR=${PN}
+
+inherit gtk2-perl git
